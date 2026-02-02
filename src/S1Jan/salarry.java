@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	for (int i = 0; i <= arry.length-1; i++) {
 		 arry[i] = scan.nextInt();
 	}
-	
+
 	for (int i = 0; i <= arry.length-1; i++) {
 		System.out.println("Bounus 1000 + Sallary is " + (arry[i] + 1000) + " ");
 	}
