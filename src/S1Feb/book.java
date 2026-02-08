@@ -13,4 +13,9 @@ public class book {
 	public book() {
 		// TODO Auto-generated constructor stub
 	}
+	@Override
+	public String toString() {
+		return "[bookName = " + bookName + ", cost = " + cost + "]";
+	}
+	
 }
