@@ -9,5 +9,7 @@ public static void main(String[] args) {
 	System.out.println("Enter the Numnber of the size ");
 	int size = scan.nextInt();
 	
+	//Create a Arrays
+	int[] arry = new int[size];
 }
 }
