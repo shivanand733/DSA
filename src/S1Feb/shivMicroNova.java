@@ -11,7 +11,17 @@ public class shivMicroNova {
 		// default constructor 
 	}
 	
-	public shivMicroNova(int empNo, String name) {
-		
+	public shivMicroNova(int empNo, String name,String department,String depHead) {
+		this.empNo = empNo;
+		this.name = name;
+		this.department = department;
+		this.depHead = depHead;
 	}
+
+	@Override
+	public String toString() {
+		return "shivMicroNova [empNo=" + empNo + ", name=" + name + ", department=" + department + ", depHead="
+				+ depHead + "]";
+	}
+	
 }
