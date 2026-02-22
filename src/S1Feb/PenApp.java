@@ -13,12 +13,9 @@ public static void main(String[] args) {
 	
 	for (int i = 0 ; i <= arr.length-1; i++) {
 		System.out.println("Create a object of the pen " + i + " class");
-		arr[i] = new Pen();
-		
-		System.out.println("Enter the Name, cost and Pen Type ");
-		arr[i].name = scan.next();
-		arr[i].cost = scan.nextInt();
-		arr[i].penType = scan.next();
+	
+		System.out.println("Enter Pen Name Cost Pen Type");
+		arr[i] = new Pen(scan.next(),scan.nextInt(), scan.next());
 	}
 	
 	for (int i = 0; i <= arr.length-1; i++) {
