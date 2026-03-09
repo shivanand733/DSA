@@ -9,8 +9,8 @@ public static void main(String[] args) {
 //	3D Array Creation 
 	int [][][] arry = new int[3][][];
 	
-	 arry[0] = new int[3][];
-	 arry[1] = new int[2][];
+	 arry[0] = new int[2][];
+	 arry[1] = new int[3][];
 	 arry[2] = new int[4][];
 	 
 	 arry[0][3] = new int[5];
