@@ -2,7 +2,7 @@ package march;
 
 import java.util.Scanner;
 
-public class revArray {
+public class sumArray {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
