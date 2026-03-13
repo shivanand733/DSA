@@ -1,0 +1,34 @@
+package march;
+
+import java.util.Scanner;
+
+public class sumOfArrayMin {
+public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	
+//	creation of the Array
+	System.out.println("Enter Size of Arrays ");
+	int[][]  arry = new int[scan.nextInt()] [scan.nextInt()];
+	
+	for (int i = 0; i <= arry.length-1; i++) {
+		for (int j = 0; j <= arry[i].length-1; j++) {
+			System.out.println("Enter Numbers " + i + "" + j );
+			arry[i][j] = scan.nextInt();
+		}
+	}
+	
+	int min = arry[0][0];
+	for (int i = 0; i <= arry.length-1; i++) {
+		for (int j = 1; j <= arry[i].length-1; j++) {
+			
+			
+			if (arry[i][j] < min) {
+				min = arry[i][j];
+			}
+		}
+	}
+	System.out.println("The Min of the sum is : " + min);
+
+	
+}
+}
