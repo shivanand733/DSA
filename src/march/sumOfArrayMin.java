@@ -19,16 +19,15 @@ public static void main(String[] args) {
 	
 	int min = arry[0][0];
 	for (int i = 0; i <= arry.length-1; i++) {
-		for (int j = 1; j <= arry[i].length-1; j++) {
-			
-			
+		for (int j = 0; j <= arry[i].length-1; j++) {
 			if (arry[i][j] < min) {
 				min = arry[i][j];
 			}
 		}
-	}
-	System.out.println("The Min of the sum is : " + min);
+		System.out.println("The Min of the sum is : " + min);
 
-	
+	}
+//	System.out.println("The Min of the sum is : " + min);
+
 }
 }
