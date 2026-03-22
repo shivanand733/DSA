@@ -16,7 +16,7 @@ public static void main(String[] args) {
 			arry[i][j] = scan.nextInt();
 		}
 	}
-
+int sum;
 	for (int i = 0; i <= arry.length-1; i++) {
 		 int min = arry[i][0];		// reset for Each row 
 		for (int j = 0; j <= arry[i].length -1;j++) {
@@ -25,8 +25,8 @@ public static void main(String[] args) {
 			}
 		}
 		System.out.println("The min of the each row :" + min);
+		
 	}
-	
 	
 }
 }
