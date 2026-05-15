@@ -16,12 +16,28 @@ public static void main(String[] args) {
 		System.out.println("The Reference Are not Same..");
 	}
 	
-	System.out.println("________________________________________");
-	
 	if (s3.equals(s4)) {
 		System.out.println("The Contet Willl be Same");
 	} else  {
 		System.out.println("The Contet not match Or Not Same");
 	}
+	
+	System.out.println("-------------------------------------------");
+
+	if (s5 == s6) {
+		 System.out.println("The refernces Are Same");
+	} else {
+		System.out.println("The Reference Are not Same..");
+	}
+	
+	if (s5.equals(s6)) {
+		System.out.println("The Contet Willl be Same");
+	} else  {
+		System.out.println("The Contet not match Or Not Same");
+	}
+	
+	System.out.println("-------------------------------------------");
+
 }
 }
+ 
