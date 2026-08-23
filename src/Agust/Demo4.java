@@ -15,6 +15,12 @@ public class Demo4 {
 			for(int i = 0; i <=S.length()-1; i++) {
 				System.out.println(S.charAt(i));
 			}
+			
+			StringBuffer Sb = new StringBuffer();
+			Sb.append("Shivanand");
+			System.out.println(Sb);
+			Sb.reverse();
+			System.out.println(Sb);
 		}	
 	} 
 	
