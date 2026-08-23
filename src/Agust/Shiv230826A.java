@@ -16,6 +16,8 @@ public class Shiv230826A {
 		sb1.append(" Welcome back....");
 		
 		System.out.println("The String Builder using Appends Are " + sb1);
+		
+		System.out.println(sb1.capacity());
 		}
 	}
 }
