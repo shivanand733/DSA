@@ -6,10 +6,11 @@ public class shiv230826 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-	
+		Demo d = new Demo();
+		d.Message();
 	}
 
-	public class Demo{
+	public static class  Demo{
 		public void Message() {
 	//		using the string bubber and builder
 	
