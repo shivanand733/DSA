@@ -6,11 +6,7 @@ public class shiv230826 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		// call the DEmo class 
-		shiv230826 obj = new shiv230826();
-		Demo demo = obj.new Demo();
-		demo.Message();
-		
+	
 	}
 
 	public class Demo{
