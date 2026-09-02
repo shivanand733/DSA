@@ -2,8 +2,6 @@ package sep;
 
 import java.util.Scanner;
 
-import jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput;
-
 public class SDemo3 {
 public static void main(String[] args) {
 	Scanner scan = new Scanner(System.in);
