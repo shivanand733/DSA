@@ -21,6 +21,6 @@ public static void main(String[] args) {
 //	s1.display();
 	
 	shivQueue01B sq = new shivQueue01B(5);
-	sq.dispaly();
+	sq.pop();
 }
 }
