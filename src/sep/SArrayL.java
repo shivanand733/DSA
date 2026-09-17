@@ -40,30 +40,35 @@ public static void AddArryList() {
 		
 }
 
-	public static void StringArray() {
-		Scanner scan = new Scanner(System.in);
-		
-		//String ArrayList Creation  
-		ArrayList<String> sh = new ArrayList<String>();
-		
-		System.out.println("Enter the Number");
-		int n = scan.nextInt();
-		scan.nextLine(); //consume nextLine
-		
-		System.out.println("Enetr Names");
-//		Store in the String arrays
-		for (int i = 0; i < n; i++) {
-			sh.add(scan.nextLine());
-		}
-		
-//	Print String Array 
-		
-		System.out.println("Names Are: ");
-		for (int i = 0; i < sh.size(); i++) {
-			System.out.print(sh.get(i) + " ");
-		}
-		
-		
-		
-	}
+public static void StringArray() {
+
+    Scanner scan = new Scanner(System.in);
+
+    ArrayList<String> sh = new ArrayList<String>();
+
+    System.out.println("Enter the Number");
+    int n = scan.nextInt();
+    scan.nextLine();
+
+    System.out.println("Enter Names");
+
+    for (int i = 0; i < n; i++) {
+        sh.add(scan.nextLine());
+    }
+
+    System.out.println("Enter Position:");
+    int pos = scan.nextInt();
+    scan.nextLine();
+
+    System.out.println("Enter New Name:");
+    String name = scan.nextLine();
+
+    sh.add(pos, name);
+
+    System.out.println("Names Are:");
+
+    for (int i = 0; i < sh.size(); i++) {
+        System.out.print(sh.get(i) + " ");
+    }
+}
 }
