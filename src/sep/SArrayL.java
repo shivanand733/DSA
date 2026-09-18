@@ -6,7 +6,8 @@ import java.util.Scanner;
 public class SArrayL {
 public static void main(String[] args) {
 //	AddArryList();
-	StringArray();
+//	StringArray();
+	Sremove();
 }
 
 public static void AddArryList() {
@@ -70,5 +71,29 @@ public static void StringArray() {
     for (int i = 0; i < sh.size(); i++) {
         System.out.print(sh.get(i) + " ");
     }
+}
+
+public static void Sremove() {
+	Scanner scan = new Scanner(System.in);
+	
+	//take input length
+	System.out.println("Enter the lenght");
+	int n = scan.nextInt();
+	
+	//Create An Arraylist 
+	ArrayList<Integer> al = new ArrayList<Integer>();
+	
+	System.out.println("eneter the Numbers ");
+	for(int i = 0; i < n; i++) {
+		al.add(scan.nextInt());
+	}
+	
+	//enter the element to remove 
+	System.out.println("Eneter element Number");
+	al.remove(scan.nextInt());
+	
+	//after the remove the element
+	System.out.println(al);
+	
 }
 }
