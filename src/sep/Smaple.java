@@ -1,15 +1,18 @@
 package sep;
 
-public class Smaple {
+public class Smaple <T>{
 
-	private String data;
+	private T data;
+//	create Setter and getter for the LinkList
 
-	public String getData() {
+	public T getData() {
 		return data;
 	}
 
-	public void setData(String data) {
+	public void setData(T data) {
 		this.data = data;
 	}
+	
+	
 	
 }
